@@ -4,13 +4,13 @@ function daily() { //функция определения времени сут
 	if ($hour > 00 && $hour < 05) {
 		echo '<div class="menu">Доброй ночи, ';
 	}
-		elseif ($hour > 05 && $hour < 10) {
+		elseif ($hour >= 05 && $hour < 10) {
 			echo '<div class="menu">Доброго утра, ';
 		}
-			elseif ($hour > 10 && $hour < 18) {
+			elseif ($hour >= 10 && $hour < 18) {
 				echo '<div class="menu">Доброго дня, ';
 			}
-				elseif ($hour > 18 && $hour < 00) {
+				elseif ($hour >= 18 && $hour < 24) {
 					echo '<div class="menu">Доброго вечера, ';
 				}
 }
