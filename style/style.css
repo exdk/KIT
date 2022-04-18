@@ -1,0 +1,225 @@
+body {
+background : #e8e8e8;
+color : #929292;
+margin : 2px auto;
+max-width : 650px;
+font : 13px Tahoma, Arial, Verdana;
+}
+a {
+color : #88867a;
+text-decoration : none;
+}
+a:hover {
+text-decoration : underline;
+color : #feaf32;
+}
+.head {
+color : #fff;
+background : #6d6d6d url('img/head.png') repeat-x top;
+padding : 1px;
+padding-left : 5px;
+border : 1px solid #6d6d6d;
+border-bottom : 1px solid #fff;
+text-align : center;
+}
+.news {
+color : #686868;
+background : #fff url(img/menu.png) repeat-x top;
+padding : 1px;
+padding-left : 5px;
+padding-right : 5px;
+border-left : 1px solid #dadada;
+border-left : 1px solid #b1770b;
+border-top : 1px solid #fff;
+border-right : 1px solid #b1770b;
+}
+.main {
+color : #686868;
+background : #fff;
+padding : 1px;
+padding-left : 5px;
+padding-right : 5px;
+border-left : 1px solid #dadada;
+border-left : 1px solid #b1770b;
+border-top : 1px solid #fff;
+border-right : 1px solid #b1770b;
+}
+.menu {
+color : #186881;
+background : #22b4e2 url(img/razd_b.png) repeat-x top;
+padding : 2px;
+padding-left : 5px;
+padding-right : 5px;
+border-left : 1px solid #10a1ce;
+border : 1px solid #10a1ce;
+}
+.menu_1 {
+color : #686868;
+background : #fff url(img/menu_b.png) repeat-x top;
+padding : 1px;
+padding-left : 5px;
+padding-right : 5px;
+border-left : 1px solid #10a1ce;
+border-left : 1px solid #10a1ce;
+border-top : 1px solid #fff;
+border-right : 1px solid #10a1ce;
+}
+.bordur, .glagne {
+color : #8c6110;
+background : #feaf32 url(img/razd.png) repeat-x top;
+padding : 2px;
+padding-left : 5px;
+padding-right : 5px;
+border-left : 1px solid #dadada;
+border : 1px solid #b1770b;
+}
+.rek {
+	color: #686868; 
+	background: #faf4c5 url(img/rek.png) no-repeat top right; 
+	padding: 3px;
+	padding-left: 5px;
+	padding-right: 5px;  
+	border: 1px solid #b1770b;
+	border-bottom: 1px solid #fff;
+	font-size:14px}
+.copy {
+color : #fff;
+background : #6d6d6d url('img/end.png') repeat-x top;
+padding : 1px;
+padding-left : 5px;
+border : 1px solid #6d6d6d;
+text-align : center;
+}
+.copy a {
+color : #fff;
+}
+.link {
+margin : 0 3px;
+border-bottom : 1px dotted #bebabb;
+margin : 0 1px 1px 1px;
+padding : 1px 0 1px 3px;
+}
+.link:hover {
+background-color : #faf4c5;
+}
+
+.count img {
+ opacity : 0.2; 
+ text-align : center;
+} 
+.count img:hover {
+ opacity : 0.9; 
+ text-align : center;
+}
+
+input {
+border : 1px solid #0e98cf;
+margin : 2px;
+}
+textarea, select {
+border : 1px solid #327d23;
+background : #22b4e2;
+}
+input[type="submit"] {
+margin-top : 2px;
+background : #feaf32;
+color : #fff;
+border : 1px solid #0e98cf;
+}
+span {
+color : #f5e455;
+}
+.razd_g {
+color : #346d09;
+background : #6cc829 url(img/razd_g.png) repeat-x top;
+padding : 2px;
+padding-left : 5px;
+padding-right : 5px;
+border-left : 1px solid #419b00;
+border : 1px solid #419b00;
+}
+.menu_g {
+color : #686868;
+background : #fff url(img/menu_g.png) repeat-x top;
+padding : 1px;
+padding-left : 5px;
+padding-right : 5px;
+border-left : 1px solid #419b00;
+border-left : 1px solid #419b00;
+border-top : 1px solid #fff;
+border-right : 1px solid #419b00;
+}
+.Container {
+    padding: 0;
+    margin: 0;
+}
+
+.Container li {
+    list-style-type: none;
+}
+
+
+/* indent for all tree children excepts root */
+.Node {
+    background-image : url(img/i.gif);
+    background-position : top left;
+    background-repeat : repeat-y;
+    margin-left: 18px;
+    zoom: 1;
+}
+
+.IsRoot {
+    margin-left: 0;
+}
+
+
+/* left vertical line (grid) for all nodes */
+.IsLast {
+    background-image: url(img/i_half.gif);
+    background-repeat : no-repeat;
+}
+
+.ExpandOpen .Expand {
+    background-image: url(img/expand_minus.gif);
+}
+
+/* closed is higher priority than open */
+.ExpandClosed .Expand {
+    background-image: url(img/expand_plus.gif);
+}
+
+/* highest priority */
+.ExpandLeaf .Expand {
+    background-image: url(img/expand_leaf.gif);
+}
+
+.Content {
+    min-height: 18px;
+    margin-left:18px;
+}
+
+* html .Content {
+    height: 18px;
+}
+
+.Expand {
+    width: 18px;
+    height: 18px;
+    float: left;
+}
+
+
+.ExpandOpen .Container {
+        display: block;
+}
+
+.ExpandClosed .Container {
+        display: none;
+}
+
+.ExpandOpen .Expand, .ExpandClosed .Expand {
+        cursor: pointer;
+}
+.ExpandLeaf .Expand {
+        cursor: auto;
+}
