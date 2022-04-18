@@ -1,10 +1,10 @@
 <?php
 
 // Объявляем нужные константы
-define('DB_HOST', 'mysql-174554.srv.hoster.ru');
-define('DB_USER', 'srv174554_aa59');
-define('DB_PASSWORD', 'bcs2d.,y');
-define('DB_NAME', 'srv174554_b63cb');
+define('DB_HOST', 'LOCAHOST');
+define('DB_USER', 'dbUSER');
+define('DB_PASSWORD', 'dbPASSWORD');
+define('DB_NAME', 'dbNAME');
 
 
 // Подключаемся к базе данных
